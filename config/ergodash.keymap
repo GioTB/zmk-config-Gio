@@ -14,6 +14,16 @@
 #define RAISE   2
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        ml1 {
+            bindings = <&kp ENTER>;
+            key-positions = <48 62>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
