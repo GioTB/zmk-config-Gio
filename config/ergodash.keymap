@@ -14,6 +14,41 @@
 #define RAISE   2
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        ml1 {
+            bindings = <&kp ENTER>;
+            key-positions = <48 62>;
+            layers = <0>;
+        };
+
+        HOME_combo {
+            bindings = <&kp HOME>;
+            key-positions = <67 68>;
+        };
+
+        END_Combo {
+            bindings = <&kp END>;
+            key-positions = <69 68>;
+        };
+
+        AbreCorchete {
+            bindings = <&kp SQT>;
+            key-positions = <38 39>;
+        };
+
+        CierreCorchete {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <52 53>;
+        };
+
+        Interrogacion {
+            bindings = <&kp MINUS>;
+            key-positions = <25 24>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
