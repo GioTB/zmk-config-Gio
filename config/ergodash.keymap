@@ -49,7 +49,7 @@
         };
 
         Asterisco {
-            bindings = <&kp ASTRK>;
+            bindings = <&kp KP_ASTERISK>;
             key-positions = <40 39>;
         };
     };
